@@ -21,8 +21,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen flex">
       <aside className="w-56 bg-slate-900 border-r border-slate-800 flex flex-col">
         <div className="p-4 border-b border-slate-800">
-          <Link to="/dashboard" className="font-bold text-lg text-brand-500">NetWatch AI</Link>
-          <p className="text-xs text-slate-500 mt-1">GNS3 Network Monitor</p>
+          <Link to="/dashboard" className="font-bold text-lg text-brand-500">NetOps Assistant</Link>
+          <p className="text-xs text-slate-500 mt-1">Monitor Your Network</p>
         </div>
         <nav className="flex-1 p-3 space-y-1">
           {nav.map(({ to, label, icon: Icon }) => (

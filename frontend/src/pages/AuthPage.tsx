@@ -38,7 +38,7 @@ export default function AuthPage() {
     <div className="min-h-screen flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <Link to="/" className="font-bold text-2xl text-brand-500">NetWatch AI</Link>
+          <Link to="/" className="font-bold text-2xl text-brand-500">NetOps Assistant</Link>
           <p className="text-slate-400 mt-2">{mode === 'login' ? 'Sign in to your account' : 'Create an account'}</p>
         </div>
 

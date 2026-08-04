@@ -19,7 +19,7 @@ const features = [
   },
   {
     icon: Network,
-    title: 'GNS3 Topology Sync',
+    title: 'Topology Sync',
     desc: 'Auto-discover devices from GNS3 API. Removed nodes are cleaned from inventory.',
   },
 ];
@@ -29,7 +29,7 @@ export default function LandingPage() {
     <div className="min-h-screen">
       <header className="border-b border-slate-800">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <span className="font-bold text-xl text-brand-500">NetWatch AI</span>
+          <span className="font-bold text-xl text-brand-500">NetOps Assistant</span>
           <div className="flex gap-3">
             <Link to="/auth" className="btn-secondary text-sm">Sign in</Link>
             <Link to="/auth?mode=signup" className="btn-primary text-sm">Get started</Link>
@@ -43,7 +43,7 @@ export default function LandingPage() {
           <span className="text-brand-500">AI assistant</span>
         </h1>
         <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
-          Monitor your GNS3 lab network, detect faults, get recommendations, and configure
+          Monitor your Enterprise network, detect faults, get recommendations, and configure
           devices over SSH — all through a simple conversational interface.
         </p>
         <Link to="/auth?mode=signup" className="btn-primary inline-flex items-center gap-2 text-lg px-6 py-3">
@@ -63,10 +63,8 @@ export default function LandingPage() {
 
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="card bg-slate-900/50">
-          <h2 className="text-2xl font-bold mb-4">Built for GNS3 labs</h2>
+          <h2 className="text-2xl font-bold mb-4">Built for Enterprise Network</h2>
           <p className="text-slate-400 mb-4">
-            Deploy on an Ubuntu Desktop VM connected to your GNS3 topology. The system polls
-            device management IPs, syncs with the GNS3 REST API, and pushes live alerts via WebSocket.
           </p>
           <ul className="text-sm text-slate-400 space-y-2 list-disc list-inside">
             <li>Dashboard with charts, device list, and alert feed</li>
@@ -78,7 +76,7 @@ export default function LandingPage() {
       </section>
 
       <footer className="border-t border-slate-800 py-8 text-center text-sm text-slate-500">
-        NetWatch AI — Network Monitoring & Configuration Chatbot
+        NetOps Assistant — Network Monitoring & Configuration Chatbot
       </footer>
     </div>
   );

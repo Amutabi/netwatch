@@ -48,7 +48,7 @@ export default function DevicesPage() {
           {isAdmin && (
             <>
               <button onClick={() => api.syncTopology()} className="btn-secondary text-sm flex items-center gap-1">
-                <RefreshCw size={16} /> Sync GNS3
+                <RefreshCw size={16} /> Sync Devices
               </button>
               <button onClick={() => setShowAdd(true)} className="btn-primary text-sm flex items-center gap-1">
                 <Plus size={16} /> Add device

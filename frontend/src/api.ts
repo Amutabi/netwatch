@@ -1,6 +1,6 @@
 const API = '/api';
 
-function getToken() {
+export function getToken() {
   return localStorage.getItem('token');
 }
 
